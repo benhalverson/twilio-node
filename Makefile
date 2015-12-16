@@ -1,8 +1,8 @@
 test-install:
-	npm install jasmine-node -g
+	npm install mocha -g
 
 install:
 	npm install ./
 
 test:
-	jasmine-node spec
+	mocha spec
